@@ -1,13 +1,14 @@
 # DOM - Technical Paper
 -Subhadeep Bandyopadhyay
 
-## Table of contents
+## Table of Contents
 
 <!--ts-->
 * [What is DOM?](#what-is-dom)
 * [How does it help?](#how-does-it-help)
 * [How to access it?](#how-to-access-it)
 * [What are JS Helper methods?](#what-are-JS-Helper-methods)
+* [Referrences](#references)
 <!--te-->
 
 ## What is DOM?
@@ -41,8 +42,15 @@ As you can see from the above representation, the structure is much like a tree;
 
 ## How does it help? 
 
+Maintaining a standard programming interface for HTML and XML documents, which is language-independent is one of the main reasons why the DOM is developed. Setting and maintaining this standard enables programmers to create or navigate these types of documents and modify their elements predictably, using any type of language or development environment.
 
+Having said that, JavaScript language is arguably one of the most popular ways of working with HTML documents using the DOM. 
 
+The uses of the DOM are many and varied, but if we were to make a list of the key abilities, these would include:
+* to locate elements in the document by their ID, class, tag name and other characteristics
+* to add, remove, or modify the HTML elements
+* to modify any attributes of an HTML emement. such as their class
+* to add animation to a document by gradually changing an element's position on the page over time in JavaScript
 
 ## How to access it? 
 
@@ -81,7 +89,7 @@ Another example. This function creates a new H1 element, adds text to that eleme
 Helper methods are JavaScript functions that can be called from templates. Helper methods make complicated tasks a bit easier and keep the code DRY (an acronym for Don’t Repeat Yourself).
 
 Some of the important Helper Methods are:
-**1. fill() Method**: This method fills the array with a static value. It overrides all array values starting from the first element(0th index) and up to the last element(array.length-1 index).
+**1. fill() Method**: This method fills the array with a static value. It overrides all array values starting from the first element and up to the last element.
 
 Input:
 ```
@@ -151,7 +159,7 @@ Output:
 { name: 'Smith', age: 25, role: 'Developer' }
 ```
 
-**3.  flat() Method**: This method is used to flatten the array or concatenate the array with the sub-array elements recursively.
+**3.  flat() Method**: This method is used to concatenate the array with the sub-array elements recursively.
 
 Input: 
 ```
@@ -196,3 +204,32 @@ Output:
 true
 false
 ```
+**5. join() Method**: This method concatenates the array values into a string separated by comma(if no separator is provided) or with separator provided.
+Input:  
+```
+separator
+```
+Output:
+```
+New string          
+```
+```sh
+const names = ["Smith", "Jimmy", "Rudolph", "Paul", "Steve", "Karen"];
+console.log( names.join() );
+ 
+console.log( names.join(" -> ") );
+```
+Output:
+```
+'Smith, Jimmy, Rudolph, Paul, Steve, Karen'
+ 'Smith -> Jimmy -> Rudolph -> Paul -> Steve -> Karen'
+```
+
+## Referrences
+https://www.w3.org/TR/WD-DOM/introduction.html
+https://www.w3schools.com/js/js_htmldom.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+https://www.quora.com/Why-is-a-DOM-useful
+https://guides.emberjs.com/release/components/helper-functions/
+https://www.geeksforgeeks.org/array-helper-methods-in-es6/
+https://vanillajstoolkit.com/helpers/
