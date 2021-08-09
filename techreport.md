@@ -2,7 +2,7 @@
 
 DOM stands for Document Object Model. It is a programming API for HTML and XML documents. It represents the way documents might be accessed or manipulated. Now, the object model resembles the structure of the documents it models. For example: 
 
-```
+```json
 <TABLE>
       <ROWS> 
       <TR> 
@@ -19,13 +19,16 @@ DOM stands for Document Object Model. It is a programming API for HTML and XML d
 
 The Document Object Model representation looks like this:
 
-![DOM representation](https://www.w3.org/TR/WD-DOM/table.gif)
+![Dom representation](https://www.w3.org/TR/WD-DOM/table.gif)
+
+
+
 
 ## How does it help? 
 
 
 
-## How to acess it? 
+## How to access it? 
 
 
 
