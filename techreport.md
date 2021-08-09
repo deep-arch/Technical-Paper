@@ -8,7 +8,7 @@
 * [How does it help?](#how-does-it-help)
 * [How to access it?](#how-to-access-it)
 * [What are JS Helper methods?](#what-are-JS-Helper-methods)
-* [Referrences](#references)
+* [References](#references)
 <!--te-->
 
 ## What is DOM?
@@ -225,11 +225,11 @@ Output:
  'Smith -> Jimmy -> Rudolph -> Paul -> Steve -> Karen'
 ```
 
-## Referrences
-https://www.w3.org/TR/WD-DOM/introduction.html
-https://www.w3schools.com/js/js_htmldom.asp
-https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-https://www.quora.com/Why-is-a-DOM-useful
-https://guides.emberjs.com/release/components/helper-functions/
-https://www.geeksforgeeks.org/array-helper-methods-in-es6/
-https://vanillajstoolkit.com/helpers/
+## References
+- https://www.w3.org/TR/WD-DOM/introduction.html
+- https://www.w3schools.com/js/js_htmldom.asp
+- https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+- https://www.quora.com/Why-is-a-DOM-useful
+- https://guides.emberjs.com/release/components/helper-functions/
+- https://www.geeksforgeeks.org/array-helper-methods-in-es6/
+- https://vanillajstoolkit.com/helpers/
