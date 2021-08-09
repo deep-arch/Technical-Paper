@@ -1,4 +1,4 @@
-# What is DOM? 
+## What is DOM? 
 
 DOM stands for Document Object Model. It is a programming API for HTML and XML documents. It represents the way documents might be accessed or manipulated. Now, the object model resembles the structure of the documents it models. For example: 
 
@@ -21,15 +21,15 @@ The Document Object Model representation looks like this:
 
 ![DOM representation](https://www.w3.org/TR/WD-DOM/table.gif)
 
-# How does it help? 
+## How does it help? 
 
 
 
-# How to acess it? 
+## How to acess it? 
 
 
 
-# What are JS Helper methods?
+## What are JS Helper methods?
 
 
 
