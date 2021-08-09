@@ -1,18 +1,16 @@
-  
-# DOM - _Technical Paper_
+# DOM - Technical Paper
 -Subhadeep Bandyopadhyay
 
-Table of contents
-=================
+## Table of contents
+
 <!--ts-->
-* [What is DOM?](#dom)
-* [How does it help?](#help)
-* [How to access it?](#access)
-* [What are JS Helper methods?](#jshelper)
+* [What is DOM?](#What-is-DOM?)
+* [How does it help?](#How-does-it-help?)
+* [How to access it?](#How-to-access-it?)
+* [What are JS Helper methods?](#What-are-JS-Helper-methods?)
 <!--te-->
 
-What is DOM?
-============
+### What is DOM?
 DOM stands for Document Object Model. It is a programming API for HTML and XML documents. It represents the way documents might be accessed or manipulated. Now, the object model resembles the structure of the documents it models. For example: 
 
 ```sh
@@ -37,14 +35,14 @@ The Document Object Model representation looks like this:
 
 
 
-How does it help? 
-============
+### How does it help? 
 
 
-How to access it? 
-============
+
+### How to access it? 
 
 
-What are JS Helper methods?
-============
+
+### What are JS Helper methods?
+
 
