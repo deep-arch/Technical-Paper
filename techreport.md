@@ -19,7 +19,7 @@ DOM stands for Document Object Model. It is a programming API for HTML and XML d
 
 The Document Object Model representation looks like this:
 
-!(https://www.w3.org/TR/WD-DOM/table.gif)
+![DOM representation](https://www.w3.org/TR/WD-DOM/table.gif)
 
 #How does it help? 
 
