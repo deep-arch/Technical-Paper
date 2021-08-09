@@ -58,7 +58,7 @@ Beginning to use DOM isn't anything special. Different browsers implement DOM di
 
 When a script is created, you can begin using the API for the document to manipulate itself or to get at the children of that document, which are the various elements in the web page. DOM programming may be something as simple as using the alert() function from the window object to display an alert message like in the first example, or it may use more sophisticated DOM methods to actually create new material, as in the second example below.
 
-This following JavaScript will display an alert when the document is loaded (and when the whole DOM is available for use):
+The following JavaScript will display an alert when the document is loaded (and when the whole DOM is available for use):
 ```sh
 <body onload="window.alert('Hello World!');">
 ```
@@ -89,6 +89,7 @@ Another example. This function creates a new H1 element, adds text to that eleme
 Helper methods are JavaScript functions that can be called from templates. Helper methods make complicated tasks a bit easier and keep the code DRY (an acronym for Don’t Repeat Yourself).
 
 Some of the important Helper Methods are:
+
 **1. fill() Method**: This method fills the array with a static value. It overrides all array values starting from the first element and up to the last element.
 
 Input:
