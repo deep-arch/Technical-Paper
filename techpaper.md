@@ -1,6 +1,8 @@
 # DOM - Technical Paper  
--Subhadeep Bandyopadhyay
-
+Written by 
+```
+Subhadeep Bandyopadhyay
+```
 <br />
 
 ## Table of Contents
