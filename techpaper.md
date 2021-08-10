@@ -14,7 +14,7 @@ Written by **`Subhadeep Bandyopadhyay`**
 <!--te-->
 
 ## What is DOM?
-DOM stands for Document Object Model. It is a programming API for HTML and XML documents. It represents the way documents might be accessed or manipulated. Now, the object model resembles the structure of the documents it models. For example: 
+DOM stands for **`Document Object Model`**. It is a programming API for **`HTML`** and **`XML`** documents. It represents the way documents might be accessed or manipulated. Now, the object model resembles the structure of the documents it models. For example: 
 
 ```javascript
 <TABLE>
@@ -35,16 +35,16 @@ The Document Object Model representation looks like this:
 
 ![Dom representation](https://www.w3.org/TR/WD-DOM/table.gif)
 
-As you can see from the above representation, the structure is much like a tree; to be more precise, it is like a "forest", i.e., it can contain more than one tree. DOM specifies the logical model for the programming interface, and this can be implemented according to convenience. There are no particular implementations, so terminologies like "tree" or "forest" are avoided; instead, we use the term _structure model_ to describe the tree-like representation. Another important property of DOM is that the same structure model will be created, with precisely the same objects and relationships, if any two DOM interpretations are used to create a representation of the same document. 
+As you can see from the above representation, the structure is much like a tree; to be more precise, it is like a "forest", i.e., it can contain more than one tree. DOM specifies the logical model for the programming interface, and this can be implemented according to convenience. There are no particular implementations, so terminologies like "tree" or "forest" are avoided; instead, we use the term **`structure model`** to describe the tree-like representation. Another important property of DOM is that the same structure model will be created, with precisely the same objects and relationships, if any two DOM interpretations are used to create a representation of the same document. 
 
-"Document Object Model" is called by its name because it is an "object model" and is used in the Object-Oriented design. Therefore, the nodes within the above diagram don't represent a data structure; instead, they represent objects, which have functions and identities. The DOM identifies:
+"Document Object Model" is called by its name because it is an "object model" and is used in the **`Object-Oriented`** design. Therefore, the nodes within the above diagram don't represent a data structure; instead, they represent objects, which have functions and identities. The DOM identifies:
 - to manipulate a document, the interfaces and objects are used
 - the details of these interfaces and objects - including both behaviour and attributes
 - the relationships between these interfaces and objects
 
 ## How does it help? 
 
-Maintaining a standard programming interface for HTML and XML documents, which is language-independent is one of the main reasons why the DOM is developed. Setting and maintaining this standard enables programmers to create or navigate these types of documents and modify their elements predictably, using any type of language or development environment.
+Maintaining a standard programming interface for HTML and XML documents, which is **`language-independent`** is one of the main reasons why the DOM is developed. Setting and maintaining this standard enables programmers to create or navigate these types of documents and modify their elements predictably, using any type of language or development environment.
 
 Having said that, JavaScript language is arguably one of the most popular ways of working with HTML documents using the DOM. 
 
@@ -56,7 +56,7 @@ The uses of the DOM are many and varied, but if we were to make a list of the ke
 
 ## How to access it? 
 
-Beginning to use DOM isn't anything special. Different browsers implement DOM differently, and these implementations show varying degrees of consistency to the actual DOM standard, but every browser uses some DOM to make its web pages accessible via JavaScript.
+Beginning to use DOM isn't anything special. Different browsers implement DOM differently, and these implementations show varying degrees of consistency to the actual DOM standard, but every browser uses some DOM to make its web pages accessible via **`JavaScript`**.
 
 When a script is created, you can begin using the API for the document to manipulate itself or to get at the children of that document, which are the various elements in the web page. DOM programming may be something as simple as using the alert() function from the window object to display an alert message like in the first example, or it may use more sophisticated DOM methods to create new material, as in the second example below.
 
@@ -88,7 +88,7 @@ Another example. This function creates a new H1 element, adds text to that eleme
 ## What are JS Helper methods?
 
 
-Helper methods are JavaScript functions that can be called from templates. Helper methods make complicated tasks a bit easier and keep the code DRY (an acronym for Don’t Repeat Yourself).
+Helper methods are JavaScript functions that can be called from templates. Helper methods make complicated tasks a bit easier and keep the code **`DRY`** (an acronym for Don’t Repeat Yourself).
 
 Some of the important Helper Methods are:
 
