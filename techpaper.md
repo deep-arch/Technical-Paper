@@ -15,7 +15,7 @@
 ## What is DOM?
 DOM stands for Document Object Model. It is a programming API for HTML and XML documents. It represents the way documents might be accessed or manipulated. Now, the object model resembles the structure of the documents it models. For example: 
 
-```sh
+```javascript
 <TABLE>
       <ROWS> 
       <TR> 
@@ -60,11 +60,11 @@ Beginning to use DOM isn't anything special. Different browsers implement DOM di
 When a script is created, you can begin using the API for the document to manipulate itself or to get at the children of that document, which are the various elements in the web page. DOM programming may be something as simple as using the alert() function from the window object to display an alert message like in the first example, or it may use more sophisticated DOM methods to create new material, as in the second example below.
 
 The following JavaScript will display an alert when the document is loaded (and when the whole DOM is available for use):
-```sh
+```javascript
 <body onload="window.alert('Hello World!');">
 ```
 Another example. This function creates a new H1 element, adds text to that element, and then adds the H1 to the tree for this document:
-```sh
+```javascript
 <html>
   <head>
     <script>
@@ -101,7 +101,7 @@ Output:
 ```
 Modified array
 ```
-```sh
+```javascript
 const employees = [
     { name: "Smith",   age: 25, role: "Developer" },
     { name: "Jimmy",   age: 32, role: "Manager"   },
@@ -140,7 +140,7 @@ Output:
 ```
 Element that passes the test else undefined 
 ```
-```sh
+```javascript
 const employees = [
     { name: "Smith",   age: 25, role: "Developer" },
     { name: "Jimmy",   age: 32, role: "Manager"   },
@@ -171,7 +171,7 @@ Output:
 ```
 New array
 ```
-```sh
+```javascript
 const arr1 = [1, [2, 3, 4], 5];
 const flattened1 = arr1.flat();
 console.log(flattened1); // [ 1, 2, 3, 4, 5 ]
@@ -196,7 +196,7 @@ Output:
 ```
 Boolean value weather array includes value or not
 ```
-```sh
+```javascript
 const numbers = [1, 6, 8, 11, 5, 9, 4];
 console.log( numbers.includes(6) ); 
 console.log( numbers.includes(3) );
@@ -215,7 +215,7 @@ Output:
 ```
 New string          
 ```
-```sh
+```javascript
 const names = ["Smith", "Jimmy", "Rudolph", "Paul", "Steve", "Karen"];
 console.log( names.join() );
  
