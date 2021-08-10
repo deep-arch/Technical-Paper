@@ -1,5 +1,5 @@
 # DOM - Technical Paper
--Subhadeep Bandyopadhyay  
+<p>-Subhadeep Bandyopadhyay  </p>
 <br />
 
 ## Table of Contents
