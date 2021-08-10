@@ -1,5 +1,5 @@
 # DOM - Technical Paper
-##### -Subhadeep Bandyopadhyay
+-Subhadeep Bandyopadhyay  
 <br />
 
 ## Table of Contents
@@ -57,7 +57,7 @@ The uses of the DOM are many and varied, but if we were to make a list of the ke
 
 Beginning to use DOM isn't anything special. Different browsers implement DOM differently, and these implementations show varying degrees of consistency to the actual DOM standard, but every browser uses some DOM to make its web pages accessible via JavaScript.
 
-When a script is created, you can begin using the API for the document to manipulate itself or to get at the children of that document, which are the various elements in the web page. DOM programming may be something as simple as using the alert() function from the window object to display an alert message like in the first example, or it may use more sophisticated DOM methods to actually create new material, as in the second example below.
+When a script is created, you can begin using the API for the document to manipulate itself or to get at the children of that document, which are the various elements in the web page. DOM programming may be something as simple as using the alert() function from the window object to display an alert message like in the first example, or it may use more sophisticated DOM methods to create new material, as in the second example below.
 
 The following JavaScript will display an alert when the document is loaded (and when the whole DOM is available for use):
 ```sh
