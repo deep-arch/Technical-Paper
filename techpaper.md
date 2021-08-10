@@ -13,6 +13,8 @@ Written by **`Subhadeep Bandyopadhyay`**
 * [References](#references)
 <!--te-->
 
+<br />
+
 ## What is DOM?
 DOM stands for **`Document Object Model`**. It is a programming API for **`HTML`** and **`XML`** documents. It represents the way documents might be accessed or manipulated. Now, the object model resembles the structure of the documents it models. For example: 
 
@@ -42,6 +44,8 @@ As you can see from the above representation, the structure is much like a tree;
 - the details of these interfaces and objects - including both behaviour and attributes
 - the relationships between these interfaces and objects
 
+<br />
+
 ## How does it help? 
 
 Maintaining a standard programming interface for HTML and XML documents, which is **`language-independent`** is one of the main reasons why the DOM is developed. Setting and maintaining this standard enables programmers to create or navigate these types of documents and modify their elements predictably, using any type of language or development environment.
@@ -53,6 +57,8 @@ The uses of the DOM are many and varied, but if we were to make a list of the ke
 * to add, remove, or modify the HTML elements
 * to modify any attributes of an HTML element such as their class
 * to add animation to a document by gradually changing an element's position on the page over time in JavaScript
+
+<br />
 
 ## How to access it? 
 
@@ -84,6 +90,8 @@ Another example. This function creates a new H1 element, adds text to that eleme
   </body>
 </html>
 ```
+
+<br />
 
 ## What are JS Helper methods?
 
@@ -227,6 +235,8 @@ Output:
 'Smith, Jimmy, Rudolph, Paul, Steve, Karen'
  'Smith -> Jimmy -> Rudolph -> Paul -> Steve -> Karen'
 ```
+
+<br />
 
 ## References
 - https://www.w3.org/TR/WD-DOM/introduction.html
