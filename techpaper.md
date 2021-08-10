@@ -50,7 +50,7 @@ Having said that, JavaScript language is arguably one of the most popular ways o
 The uses of the DOM are many and varied, but if we were to make a list of the key abilities, these would include:
 * to locate elements in the document by their ID, class, tag name and other characteristics
 * to add, remove, or modify the HTML elements
-* to modify any attributes of an HTML emement. such as their class
+* to modify any attributes of an HTML element such as their class
 * to add animation to a document by gradually changing an element's position on the page over time in JavaScript
 
 ## How to access it? 
