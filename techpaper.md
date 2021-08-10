@@ -1,4 +1,4 @@
-# DOM - Technical Paper  
+# Technical Paper on DOM 
 Written by **`Subhadeep Bandyopadhyay`**
 
 <br />
